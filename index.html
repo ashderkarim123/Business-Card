@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .business-card {
+            background: #fff;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .business-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #007bff;
+        }
+        .name {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin: 10px 0 5px;
+        }
+        .title {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            color: #333;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="business-card">
+        <img src="./images/image.png "  alt="Profile Picture">
+        <div class="name">John Doe</div>
+        <div class="title">Software Engineer</div>
+        <div class="contact-info">
+            <p>Email: ashderkarim123@gmail.com</p>
+            <p>Phone: +923-458-587-213</p>
+        </div>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/ashder-karim" target="_blank">LinkedIn</a>
+            <a href="htpps://github.com/ashderkarim123" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>

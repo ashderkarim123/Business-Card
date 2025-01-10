@@ -1,65 +1,19 @@
-Business Card Project
+# Getting Started
+Install the dependencies and run the project
+```
+npm install
+npm start
+```
 
-Overview
+Head over to https://vitejs.dev/ to learn more about configuring vite
+## About Scrimba
 
-This project is a simple and visually appealing digital business card designed using HTML and CSS. It showcases essential information about an individual or a business, including name, title, contact details, and links to social media or portfolio.
+At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
+If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
+The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-Features
+- [Our courses](https://scrimba.com/allcourses)
+- [The Frontend Career Path](https://scrimba.com/learn/frontend)
+- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-Clean and modern design
-
-Responsive layout for desktop and mobile devices
-
-Easy to customize with your own details
-
-Interactive elements like hover effects
-
-Technologies Used
-
-HTML5: For the structure and content of the business card
-
-CSS3: For styling, layout, and responsive design
-
-How to Use
-
-Clone or Download the repository:
-
-git clone github.com/Business-Card
-
-Open the index.html file in your browser to view the business card.
-
-Customize the Details:
-
-Open the index.html file in a text editor.
-
-Update the placeholder information (e.g., name, job title, contact details) with your own.
-
-Modify the Styles (Optional):
-
-Open the style.css file to adjust colors, fonts, or layout as per your preference.
-
-File Structure
-
-BusinessCard/
-|
-|-- index.html       # Main HTML file
-|-- style.css        # Stylesheet for the design
-|-- images/          # Folder for profile or background images (if used)
-
-Live Demo
-
-For a live preview of the business card, open the index.html file in any modern web browser.
-
-Screenshots
-
-Future Enhancements
-
-Add animations for smoother transitions
-
-Include a dark mode option
-
-Integrate QR code linking to a digital portfolio
-
-Credits
-
-Designed and developed by Ashder Karim. Feel free to use and modify this project for personal or professional purposes.
+Happy Coding!
